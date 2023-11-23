@@ -230,9 +230,9 @@ tr:nth-child(1) {
         float: none;
         padding: 0px}
 
-   .a,.paragraph,.strong, .legend,.label, .input[type=text], .input[type=email], .input[id=poruka], 
+   .paragraph,.strong, .legend,.label, .input[type=text], .input[type=email], .input[id=poruka], 
     .button, .button1, .button2, .field, .select[id=country],.heading2,.forma, .th, .price, .td {padding: 30px}
-
+.a{padding: 0px}
     .ul1, .ul,.ul2{padding: 30px 80px 80px 80px}
 
     .sub1, .sub2{padding: 30px 100px 30px 100px}
