@@ -1,83 +1,116 @@
 .body {background-color: #141414;}
-@font-face {
-   font-family:Poppins;
-   src: url(https://fonts.googleapis.com/css?family=Poppins);}
+
 .divmain {width: 100%; display: inline-block;padding: 30px 0px 30px 0px}
 .divright {width: 50%; float: right;}
 .divleft {width: 50%; float: left;}
 .divform{padding: 10px 0px}
 
 .heading {padding: 100px 80px 20px 100px;
-			margin: 0px;
-			font-family: 'Poppins';
-			font-style: normal;
-			font-weight: 600;
-			font-size: 76px;
-			line-height: 80px;
-			color: #FFFFFF;}
+            margin: 0px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 76px;
+            line-height: 80px;
+            color: #FFFFFF;}
+.span{color: #D84141;}
 .heading2 {margin:0px;
-		font-family : Poppins;
-		padding:40px 580px 40px 520px ;
- 		font-size : 35px;
-  		color : #D84141;}
+        font-family : Poppins;
+        padding:40px 580px 40px 520px ;
+        font-size : 35px;
+        color : #D84141;}
 
 .sub {padding: 20px 100px 20px 100px;
-			font-family : Poppins; 		
- 			font-weight: 500;
-  			font-size : 26px;
-  			color : #D84141; 
-  			text-align: justify;}
+            font-family : Poppins;      
+            font-weight: 500;
+            font-size : 26px;
+            color : #D84141; 
+            text-align: justify;}
+.sub1 {padding: 20px 100px 20px 370px;
+            font-family : Poppins;      
+            font-weight: 500;
+            font-size : 26px;
+            color : #D84141; 
+            text-align: justify;}
+.sub2 {padding: 20px 100px 20px 100px;
+            font-family : Poppins;      
+            font-weight: 500;
+            font-size : 26px;
+            color : #D84141; 
+            text-align: justify;}
 
  .paragraph {margin:0px;
- 			padding: 20px 100px 20px 100px;
- 			font-family : Poppins;
- 			font-weight: 400;
-  			font-size : 16px;
-  			text-align: justify;
-  			color : #FFFFFF;}
+            padding: 20px 100px 20px 100px;
+            font-family : Poppins;
+            font-weight: 400;
+            font-size : 16px;
+            text-align: justify;
+            color : #FFFFFF;}
+.paragraph1 {margin:0px;
+            padding: 20px 20px 20px 540px;
+            font-family : Poppins;
+            font-weight: 400;
+            font-size : 20px;
+            text-align: justify;
+            color : #FFFFFF;}
 
 .strong {padding: 20px 100px 20px 100px;
-		font-family : Poppins;
- 		font-size : 16px;
-  		color : #D84141;}
+        font-family : Poppins;
+        font-size : 16px;
+        color : #D84141;}
 
 .image{padding:70px 120px 50px 100px;
-			width: 70%;}
+            width: 70%;}
+
+.image2{padding:90px 120px 50px 200px;
+            width: 70%;}
 
 .image4{padding:0px 0px 0px 150px;
-			width: 70%; 
-			opacity: 100%;
-			}
+            width: 70%; 
+            opacity: 100%; }
 
 .em {font-family : Poppins;
-		padding:40px 200px 20px 250px ;
- 		font-size : 35px;
-  		color : #D84141;}
-
+        padding:40px 200px 20px 250px ;
+        font-size : 35px;
+        color : #D84141;}
 .ul {margin:0px;
- 		padding: 20px 100px 20px 140px;
- 		font-family : Poppins;
- 		font-weight: 400;
-  		font-size : 16px;
-  		text-align: justify;
-  		color : #FFFFFF;}
+        padding: 20px 100px 20px 140px;
+        font-family : Poppins;
+        font-weight: 400;
+        font-size : 16px;
+        text-align: justify;
+        color : #FFFFFF;}
+.ul2 {margin:0px;
+        padding: 20px 100px 20px 140px;
+        font-family : Poppins;
+        font-weight: 400;
+        font-size : 16px;
+        text-align: justify;
+        color : #FFFFFF;}
+.ul1 {margin:0px;
+        padding: 20px 100px 20px 380px;
+        font-family : Poppins;
+        font-weight: 400;
+        font-size : 16px;
+        text-align: justify;
+        color : #FFFFFF;}
 .list {padding: 20px 0px 20px 0px}
 .list:hover { color: #D84141;  }
 
 .legend{padding: 20px;
-		font-family : Poppins; 		
- 		font-weight: 500;
-  		font-size : 26px;
-  		color : #D84141; 
-  		text-align: center;}
+        font-family : Poppins;      
+        font-weight: 500;
+        font-size : 26px;
+        color : #D84141; 
+        text-align: center;}
 
 .forma{padding: 0px 150px 50px 150px;}
 
 .label {display: block;
-			font-family : Poppins;
- 			font-weight: 400;
-  			font-size : 16px;
-  			color:#D84141 }
+            font-family : Poppins;
+            font-weight: 400;
+            font-size : 16px;
+            color:#D84141 }
 
 .input[type=text] {width: 100%;
   padding: 12px 20px;
@@ -85,9 +118,9 @@
   box-sizing: border-box;
   border:none;
   outline: none;
-	font-size: 12px;
-	font-family: poppins;
-	color:gray; }
+    font-size: 12px;
+    font-family: poppins;
+    color:gray; }
 .input[type=text]:focus {
  border: 3px solid #D84141;}
 
@@ -97,9 +130,9 @@
   box-sizing: border-box;
   border:none;
   outline: none;
-	font-size: 12px;
-	font-family: poppins;
-	color:gray; }
+    font-size: 12px;
+    font-family: poppins;
+    color:gray; }
 .input[type=email]:focus {
  border: 3px solid #D84141;}
 
@@ -109,42 +142,42 @@
   box-sizing: border-box;
   border:none;
   outline: none;
-	font-size: 12px;
-	font-family: poppins;
-	color:gray; }
+    font-size: 12px;
+    font-family: poppins;
+    color:gray; }
 .input[id=poruka]:focus {
  border: 3px solid #D84141;}
 
 .button{margin: 5px 10px 5px 150px;
-		padding: 5px 25px 5px 25px;
-		color: white;
-		background-color: #D84141;
-		font-family: Poppins;
-		font-size: 14px;
-		text-align: center;
-		border: none;
-		border-radius: 5px;
-		transition-duration: 0.4s;
-  		cursor: pointer;}
+        padding: 5px 25px 5px 25px;
+        color: white;
+        background-color: #D84141;
+        font-family: Poppins;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        cursor: pointer;}
 .button1:hover {
   background-color: white;
   color: #D84141;}
  .button2 {margin: 20px 10px 5px 0px;
-		padding: 5px 25px 5px 25px;
-		color: white;
-		background-color: #D84141;
-		font-family: Poppins;
-		font-size: 14px;
-		text-align: center;
-		border: none;
-		border-radius: 5px;
-		transition-duration: 0.4s;
-  		cursor: pointer;}
+        padding: 5px 25px 5px 25px;
+        color: white;
+        background-color: #D84141;
+        font-family: Poppins;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        cursor: pointer;}
 
 .field{border-color:#D84141 }
 
 .a{padding: 20px 0px 20px 0px;
-	color:#D84141 }
+    color:#D84141 }
 .a:active {
   background-color: white;}
 
@@ -154,89 +187,87 @@
   box-sizing: border-box;
   border:none;
   outline: none;
-	font-size: 12px;
-	font-family: poppins;
-	color:gray;} 
+    font-size: 12px;
+    font-family: poppins;
+    color:gray;} 
  .select[id=country]:focus{border: 3px solid #D84141;}
 
  .table{padding:20px 400px 100px 220px;
- 		width: 50%}
+        width: 50%}
 
 .th{padding: 20px 210px 20px 210px;
-		font-family : Poppins;
- 		font-size : 26px;
-  		color : #D84141;}
+        font-family : Poppins;
+        font-size : 26px;
+        color : #D84141;}
 
 .price{padding: 20px 150px 20px 150px;
-			font-family : Poppins; 		
- 			font-weight: 500;
-  			font-size : 26px;
-  			color : #D84141; 
-  			text-align: justify;}
+            font-family : Poppins;      
+            font-weight: 500;
+            font-size : 26px;
+            color : #D84141; 
+            text-align: justify;}
 
 .td {padding: 10px 150px 10px 150px;
-	text-align: center;
-	font-family : Poppins;
- 	font-weight: 400;
-  	font-size : 16px;
-  	color : #FFFFFF;
-  	border-radius: 15px;}
+    text-align: center;
+    font-family : Poppins;
+    font-weight: 400;
+    font-size : 16px;
+    color : #FFFFFF;
+    border-radius: 15px;}
 
 tr:nth-child(odd) {
   background-color: #D84141;}
 
 tr:nth-child(1) {
-  background-color:#141414 ;
-}
+  background-color:#141414 ;}
 
 
-/* Responsive CSS for mobile devices */
-@media screen and (max-width: 768px) {
+  @media (max-width: 390px) {
+  
+    .divmain{overflow-x:auto;}
     .divmain, .divright, .divleft {
         width: 100%;
         float: none;
-    }
+        padding: 0px}
 
-    .heading, .sub, .paragraph, .strong, .image, .image4, .em, .ul, .legend, .forma, .label, .input[type=text], .input[type=email], .input[id=poruka], .button, .button1, .button2, .field, .select[id=country], .table, .th, .price, .td {
-        padding-left: 60px;
-        padding-right: 20px;
-    }
+   .a,.paragraph,.strong, .legend,.label, .input[type=text], .input[type=email], .input[id=poruka], 
+    .button, .button1, .button2, .field, .select[id=country],.heading2,.forma, .th, .price, .td {padding: 30px}
 
-    .heading {
-        font-size: 36px;
-        line-height: 40px;
-    }
+    .ul1, .ul,.ul2{padding: 30px 80px 80px 80px}
 
-    .heading2, .em {
-        padding: 20px;
-        font-size: 24px;
-    }
+    .sub1, .sub2{padding: 30px 100px 30px 100px}
+
+    .legend,.label, .input[type=text], .input[type=email], .input[id=poruka], 
+    .button, .button1, .button2, .field, .select[id=country],.td{padding: 10px}
+
+    .em,.paragraph1,.image2 {display: none;}
+
+
+    .heading { font-size: 120px;
+        line-height: 150px;
+        padding: 20px;}
+
+    .sub,.br{padding: 30px;
+            font-size: 60px}
+
+    .image,.image4 {padding: 30px; 
+            width: 80%}
 
     .sub, .legend, .th, .price {
-        font-size: 20px;
-    }
+        font-size: 20px; }
 
     .paragraph, .strong, .label, .td {
-        font-size: 14px;
-    }
-
-    .image, .image4 {
-        width: 100%;
-        padding: 20px;
-    }
+        font-size: 14px;}
 
     .button, .button1, .button2 {
         margin: 5px 10px;
         padding: 10px 30px;
-        font-size: 16px;
-    }
+        font-size: 16px; }
 
-    .table {
-        padding: 20px;
-        width: 100%;
-    }
+    .table {padding: 20px;
+        width: 100%;overflow-x:auto; }
 
-    .td {
-        padding: 10px;
-    }
+    
 }
+
+
