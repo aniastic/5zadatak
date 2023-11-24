@@ -1,11 +1,13 @@
-.body {background-color: #141414;}
+.body {background-color: #141414;
+    overflow-x: hidden;}
 
 .divmain {width: 100%; display: inline-block;padding: 30px 0px 30px 0px}
+.divmain1{padding-top: 150px}
 .divright {width: 50%; float: right;}
 .divleft {width: 50%; float: left;}
 .divform{padding: 10px 0px}
 
-.heading {padding: 100px 80px 20px 100px;
+.heading1{padding: 100px 80px 20px 100px;
             margin: 0px;
             font-family: 'Poppins';
             font-style: normal;
@@ -13,7 +15,9 @@
             font-size: 76px;
             line-height: 80px;
             color: #FFFFFF;}
+
 .span{color: #D84141;}
+
 .heading2 {margin:0px;
         font-family : Poppins;
         padding:40px 580px 40px 520px ;
@@ -39,7 +43,7 @@
             color : #D84141; 
             text-align: justify;}
 
- .paragraph {margin:0px;
+.paragraph {margin:0px;
             padding: 20px 100px 20px 100px;
             font-family : Poppins;
             font-weight: 400;
@@ -68,6 +72,31 @@
 .image4{padding:0px 0px 0px 150px;
             width: 70%; 
             opacity: 100%; }
+
+.square {display:inline-flex;
+    margin: 50px 110px 20px 120px;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(to bottom, rgb(216, 65, 65), rgb(216, 30, 30)); 
+    border-radius: 10px;}
+
+.text{ position: absolute;
+    margin: 180px 15px 100px 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;}
+
+.text1{ padding: 10px 140px 100px 160px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #FFFFFF;
+    display: inline-block;}
+
+.icon{ padding: 45px;
+    width: 40%;}
 
 .em {font-family : Poppins;
         padding:40px 200px 20px 250px ;
@@ -223,7 +252,8 @@ tr:nth-child(1) {
 
 
   @media (max-width: 390px) {
-  
+    .body {background-color: #141414;
+    overflow-x: hidden;}
     .divmain{overflow-x:auto;}
     .divmain, .divright, .divleft {
         width: 100%;
@@ -232,7 +262,10 @@ tr:nth-child(1) {
 
    .paragraph,.strong, .legend,.label, .input[type=text], .input[type=email], .input[id=poruka], 
     .button, .button1, .button2, .field, .select[id=country],.heading2,.forma, .th, .price, .td {padding: 30px}
-.a{padding: 0px}
+
+    .a{position: relative;
+        margin: 20px 30px;}
+
     .ul1, .ul,.ul2{padding: 30px 80px 80px 80px}
 
     .sub1, .sub2{padding: 30px 100px 30px 100px}
@@ -243,7 +276,7 @@ tr:nth-child(1) {
     .em,.paragraph1,.image2 {display: none;}
 
 
-    .heading { font-size: 120px;
+    .heading1 { font-size: 120px;
         line-height: 150px;
         padding: 20px;}
 
@@ -267,10 +300,24 @@ tr:nth-child(1) {
     .table {padding: 20px;
         width: 100%;overflow-x:auto; }
 
+
+    .square {margin: 30px 90px 50px 140px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, rgb(216, 65, 65), rgb(216, 30, 30));
+    border-radius: 100px;}
+
+.text{ position: absolute;
+    margin: 120px 20px 0px 1px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;}
+
+.icon{ padding: 30px;
+    width: 50%;}
+
     
 }
-
-
-
 
 
