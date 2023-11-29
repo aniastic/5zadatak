@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body class="body">
-        <div class="menu-wrap">
+    <div class="menu-wrap">
         <input type="checkbox" class="toggler">
         <div class="hamburgerdiv"></div>
         <div class="hamburgerdiv"></div>
@@ -33,6 +33,7 @@
             </div>
         </div>
     </div>
+
     <div class="divmain">
                 <div class="divleft">
                     <h1 class="heading1" >Hi,<br> I'm <span class="span">Ania</span></h1>
@@ -66,25 +67,25 @@
                 <ul class="ul2">
                     <li class="list">My portfolio</li>
                     <li class="list">Find me on LinkedIn</li>
-                    <button class="button2 button1" type="button" onclick="alert('Site currently unavailable.')">SEE MORE!</button>
+                    <button class="button2 button1" type="button" onclick="document.location='seemore.html'";>SEE MORE!</button>
                 </ul>
             </div>
     </div>
 
     <div class="divmain">
-        <div class="square"> 
+        <div id="square"> 
             <img src="photo.png" class="icon">
             <span class="text">PHOTOGRAPHY</span>
         </div>
-        <div class="square"> 
+        <div id="square"> 
             <img src="video.png" class="icon">
              <span class="text">VIDEOGRAPHY</span>
         </div>
-        <div class="square"> 
+        <div id="square"> 
             <img src="artwork.png" class="icon">
             <span class="text">ILLUSTRATION</span>
         </div>
-        <div class="square"> 
+        <div id="square"> 
             <img src="branding.png" class="icon">
             <span class="text">BRANDING</span>
         </div>
@@ -117,7 +118,7 @@
         <div class="divmain">
             <h2 class="heading2">SUBSCRIPTION MODELS</h2>
 
-         <table class="table">
+         <table id="table">
               <tr>
                 <th class="th">BASIC</th>
                 <th class="th">PRO</th>
@@ -156,7 +157,7 @@
             <div class="divright">
                 <form class="forma">
                     <fieldset class="field">
-                        <legend class="legend">Contact me!</legend>
+                        <legend id="legend">Contact me!</legend>
                         <div class="divform">
                             <label for="imeprezime" class="label"> Name </label>
                             <input class="input" type="text" id="imeprezime" name="imeprezime" value="First and Last Name">
@@ -186,5 +187,8 @@
                     <img class="image4" src="4.png">
                 </div>
             </div>
+</body>
+</html>
+
 </body>
 </html>
